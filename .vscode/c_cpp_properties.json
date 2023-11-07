@@ -1,18 +1,59 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
 {
     "configurations": [
         {
-            "name": "Mac",
+            "name": "PlatformIO",
             "includePath": [
-                "${default}"
+                "/Users/mario/Documents/proj/cam/MiniRobot/include",
+                "/Users/mario/Documents/proj/cam/MiniRobot/src",
+                "/Users/mario/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/Users/mario/.platformio/packages/framework-arduino-avr/variants/standard",
+                "/Users/mario/Documents/proj/cam/MiniRobot/lib/Point",
+                "/Users/mario/Documents/proj/cam/MiniRobot/lib/Robot",
+                "/Users/mario/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/Users/mario/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/Users/mario/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/Users/mario/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/Users/mario/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                ""
             ],
-            "defines": [],
-            "macFrameworkPath": [
-                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/mario/Documents/proj/cam/MiniRobot/include",
+                    "/Users/mario/Documents/proj/cam/MiniRobot/src",
+                    "/Users/mario/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/Users/mario/.platformio/packages/framework-arduino-avr/variants/standard",
+                    "/Users/mario/Documents/proj/cam/MiniRobot/lib/Point",
+                    "/Users/mario/Documents/proj/cam/MiniRobot/lib/Robot",
+                    "/Users/mario/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/Users/mario/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/Users/mario/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/Users/mario/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/Users/mario/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60111",
+                "ARDUINO_AVR_UNO",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega328P__",
+                ""
             ],
-            "cStandard": "c17",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "macos-gcc-arm64",
-            "compilerPath": "/opt/homebrew/bin/g++-13"
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "/Users/mario/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
         }
     ],
     "version": 4
