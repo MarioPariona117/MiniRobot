@@ -1,8 +1,3 @@
-//
-// !!! WARNING !!! AUTO-GENERATED FILE!
-// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
-// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
-//
 {
     "configurations": [
         {
@@ -12,6 +7,7 @@
                 "/Users/mario/Documents/proj/cam/MiniRobot/src",
                 "/Users/mario/.platformio/packages/framework-arduino-avr/cores/arduino",
                 "/Users/mario/.platformio/packages/framework-arduino-avr/variants/standard",
+                "/Users/mario/Documents/proj/cam/MiniRobot/lib/Action",
                 "/Users/mario/Documents/proj/cam/MiniRobot/lib/Point",
                 "/Users/mario/Documents/proj/cam/MiniRobot/lib/Robot",
                 "/Users/mario/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
@@ -28,6 +24,7 @@
                     "/Users/mario/Documents/proj/cam/MiniRobot/src",
                     "/Users/mario/.platformio/packages/framework-arduino-avr/cores/arduino",
                     "/Users/mario/.platformio/packages/framework-arduino-avr/variants/standard",
+                    "/Users/mario/Documents/proj/cam/MiniRobot/lib/Action",
                     "/Users/mario/Documents/proj/cam/MiniRobot/lib/Point",
                     "/Users/mario/Documents/proj/cam/MiniRobot/lib/Robot",
                     "/Users/mario/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
@@ -49,7 +46,7 @@
             ],
             "cStandard": "gnu11",
             "cppStandard": "gnu++11",
-            "compilerPath": "/Users/mario/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerPath": "/usr/bin/g++",
             "compilerArgs": [
                 "-mmcu=atmega328p",
                 ""

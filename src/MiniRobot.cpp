@@ -1,4 +1,7 @@
-// #include<iostream>
+#include <Arduino.h>
+#include <../lib/Robot/Robot.h>
+#include <../lib/Robot/Robot.cpp>
+
 #define trigPin1 5
 #define echoPin1 4
 #define trigPin2 7
@@ -22,6 +25,7 @@ void setup(){
     // right sensor
     pinMode(trigPin3, OUTPUT);
     pinMode(echoPin3, INPUT);
+    Robot bot = ImplementRobot();
 }
 
 void loop() {
@@ -36,7 +40,7 @@ void loop() {
     // Serial.println(RightSensor);
 }
 
-ld SonarSensor(int trigPin,int echoPin){
+ld SonarSensor(int trigPin, int echoPin){
     digitalWrite(trigPin, LOW);
     delayMicroseconds(2);
     digitalWrite(trigPin, HIGH);

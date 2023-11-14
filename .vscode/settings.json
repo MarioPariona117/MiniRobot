@@ -64,7 +64,8 @@
         "concepts": "cpp",
         "algorithm": "cpp",
         "utility": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "deque": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }
